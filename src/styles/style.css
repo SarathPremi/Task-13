@@ -1,0 +1,71 @@
+body {
+    background: linear-gradient(#0080FF, #3399FF);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin: 40px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.PriceCard {
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 450px;
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    transition: transform 0.2s;
+
+}
+
+.PriceCard:hover {
+    transform: scale(1.1);
+}
+
+.type {
+    color: grey;
+    font-size: 10px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.content {
+    text-align: center;
+}
+
+.items {
+    line-height: 1;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.button {
+    background-color: #3399FF;
+    color: white;
+    width: 80%;
+    height: 10%;
+    margin-left: 20px;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+    font-size: 10px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+
+}
+
+.button:hover {
+    background-color: #2286eb;
+}
